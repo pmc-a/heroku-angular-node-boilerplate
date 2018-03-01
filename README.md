@@ -73,6 +73,8 @@ $ heroku addons:create heroku-postgresql:hobby-dev
 
 $ heroku run knex migrate:latest
 
+$ git commit -am “Adding migrations for database”
+
 $ git push heroku master
 
 $ heroku open

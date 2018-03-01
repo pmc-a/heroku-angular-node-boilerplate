@@ -1,0 +1,10 @@
+<div [hidden]="errorMessage">
+  We managed to find these technologies from your database:
+  <ul *ngFor="let technology of technologies">
+    <li>{{ technology.name }}</li>
+  </ul>
+</div>
+
+<div [hidden]="!errorMessage">
+  {{ errorMessage }}
+</div>

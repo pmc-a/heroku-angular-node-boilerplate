@@ -5,7 +5,7 @@ module.exports = {
             host: '127.0.0.1',
             user: '<YOUR_DATABASE_USERNAME>',
             password: '<YOUR_DATABASE_PASSWORD>',
-            database: 'boilerplate-sample-database'
+            database: 'boilerplate_sample_database'
         },
         searchPath: ['knex', 'public']
     },

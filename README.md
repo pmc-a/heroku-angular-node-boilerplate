@@ -13,7 +13,7 @@ You'll need to install some initial technologies to ensure you can succesfully g
 - Node v8.9.3
 - npm v5.5.1
 - Angular CLI v1.7.1
-- Heroku CLI v6.15.26
+- Heroku CLI v6.15.26 (can be easily installed via brew: `brew install heroku/brew/heroku`)
 - PostgreSQL v9.5
 
 Firstly, you'll need to clone the repo down. Once you have pulled it down, run the following:
